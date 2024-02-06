@@ -1,0 +1,70 @@
+.App {
+  background-color: #dff6db;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+}
+
+.container {
+  box-sizing: border-box;
+  flex: 1;
+  margin-top: 60px;
+  padding: 0 10%;
+  width: 100%;
+}
+
+.books-list {
+  background-color: #fff;
+}
+
+button {
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  background-color: rgb(224, 224, 224);
+  box-shadow: 1.5px 1.5px rgba(128, 128, 128, 0.404);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 0;
+}
+
+button:hover {
+  cursor: pointer;
+  color: whitesmoke;
+  background-color: royalblue;
+}
+
+button:active {
+  background-color: rgba(165, 164, 164, 0.644);
+}
+
+.form-message {
+  color: #E22859;
+  border-left: 3px solid #E22859;
+  padding-left: 8px;
+  background-color: #fafafa;
+}
+
+.form-message p {
+  padding: 8px 0;
+}
+
+input {
+  border-radius: 5px;
+  height: 25px;
+  margin: 3px 
+}
+
+.favorite-emoji {
+  opacity: 1;
+  cursor: pointer;
+}
+
+.favorite-emoji.opaque {
+  opacity: 0.5;
+}
+
+.read-emoji {
+  cursor: pointer;
+}

@@ -1,0 +1,13 @@
+.footer {
+  background-color: #3e4854;
+  box-sizing: border-box;
+  color: #fff;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-top: 5%;
+  padding: 8px 10%;
+  width: 100%;
+  color: #fff;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  text-align: center;
+}
